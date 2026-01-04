@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { House } from "lucide-react";
 
 const navItems = [
   { href: "/", label: "About" },
@@ -23,7 +24,7 @@ export default function Navigation() {
             href="/"
             className="text-xl font-semibold text-slate-100 hover:text-white transition-colors"
           >
-            Portfolio
+            <House />
           </Link>
 
           {/* Desktop Navigation */}

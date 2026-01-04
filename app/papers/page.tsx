@@ -9,13 +9,13 @@ export const metadata = {
 const papers: Paper[] = [
   {
     id: "1",
-    title: "Sample Research Paper",
+    title: "Undergraduate Thesis",
     description:
-      "An example research paper showcasing the papers page functionality. Replace this with your actual papers.",
-    year: 2024,
+      "Undergraduate thesis on the feasibility of quantum-classical algorithms to solve combinatorial optimization NP-hard problems.",
+    year: 2021,
     authors: ["Your Name", "Co-author Name"],
     tags: ["Research", "Academic", "Example"],
-    pdfPath: "/papers/sample.pdf",
+    pdfPath: "/papers/quantum-computation-thesis.pdf",
   },
   // Add more papers here
 ];
@@ -49,4 +49,3 @@ export default function PapersPage() {
     </div>
   );
 }
-

@@ -28,9 +28,6 @@ export default async function ProjectsPage() {
         <h1 className="text-4xl font-bold tracking-tight text-slate-100 sm:text-5xl">
           Projects
         </h1>
-        <p className="text-lg text-slate-400">
-          A collection of my open-source projects and contributions on GitHub
-        </p>
       </div>
 
       {error ? (
@@ -58,4 +55,3 @@ export default async function ProjectsPage() {
     </div>
   );
 }
-
