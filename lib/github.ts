@@ -32,10 +32,10 @@ export async function getUserRepositories(
       name: repo.name,
       description: repo.description,
       html_url: repo.html_url,
-      homepage: repo.homepage,
-      language: repo.language,
-      stargazers_count: repo.stargazers_count,
-      updated_at: repo.updated_at,
+      homepage: repo.homepage ?? null,
+      language: repo.language ?? null,
+      stargazers_count: repo.stargazers_count ?? 0,
+      updated_at: repo.updated_at ?? new Date().toISOString(),
       topics: repo.topics || [],
     }));
   } catch (error) {

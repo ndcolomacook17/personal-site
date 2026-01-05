@@ -10,7 +10,8 @@ export const metadata = {
 };
 
 export default async function ProjectsPage() {
-  let repositories = [];
+  // todo: fix typing
+  let repositories: any[] = [];
   let error = null;
 
   try {
